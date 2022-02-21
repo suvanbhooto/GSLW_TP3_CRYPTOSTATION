@@ -5,7 +5,7 @@ Crypto station is used to encrypt and decrypt files.
 
 ***
 
-###Install and Unistall
+##Install and Unistall
 
 
 ###Install
@@ -36,6 +36,8 @@ When unistalling, the program will delete **crypto_station** along with all fold
 
 **Decrypt** All the decrypted files will be stored with same name as the original name of the files. 
 
+
+***
 
 
 ##how to use Crypto Station

@@ -3,6 +3,8 @@
 Crypto station is used to encrypt and decrypt files.
 
 
+***
+
 ###Install and Unistall
 
 
@@ -20,6 +22,9 @@ when installing, the program will create a folder **crypto_station** in home wit
 
 When unistalling, the program will delete **crypto_station** along with all folders and file in it.
 
+
+
+***
 
 ##The use of each folder
 
@@ -43,7 +48,11 @@ The program will automatically encrypt the files in the **toCrypt** and save the
 
 The program will then send encrypted file to **toDecrypt** folder and will automatically save in **Decrypted** folder as **text_txt**. 
 
+
 ***
+
+
+
 
 ##Installation
 
@@ -57,6 +66,7 @@ git clone https://github.com/suvanbhooto/GSLW_TP3_CRYPTOSTATION.git
 git clone git@github.com:suvanbhooto/GSLW_TP3_CRYPTOSTATION.git
 ```
 
+
 ***
 
 Open in terminal the folder that you just clone.
@@ -66,6 +76,7 @@ Install the crypto package
 ```bash
 sudo apt get install python3-crypto
 ```
+
 
 ***
 
@@ -80,6 +91,8 @@ sudo chmod +x install.sh
 
 ./install.sh
 ```
+
+
 
 ***
 

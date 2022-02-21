@@ -15,8 +15,12 @@ Then the encrypted file wiil be stored in the Crypted folder and the decrypted f
 
 Make a git clone of the git repository
 
-```git
+```
 git clone https://github.com/suvanbhooto/GSLW_TP3_CRYPTOSTATION.git
+
+#or
+
+git clone git@github.com:suvanbhooto/GSLW_TP3_CRYPTOSTATION.git
 ```
 
 ***

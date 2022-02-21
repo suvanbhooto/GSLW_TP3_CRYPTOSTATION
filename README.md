@@ -73,9 +73,11 @@ git clone git@github.com:suvanbhooto/GSLW_TP3_CRYPTOSTATION.git
 
 Open in terminal the folder that you just clone.
 
-Install the crypto package
+
 
 ```bash
+#Install the crypto package
+
 sudo apt get install python3-crypto
 ```
 
@@ -87,11 +89,11 @@ To install crypto station
 ```bash
 #we need to give the script install.sh the right to execute
 
-sudo chmod +x install.sh 
+:~/GSLW_TP3_CRYPTOSTATION$ sudo chmod +x install.sh 
 
 #Then run the script
 
-./install.sh
+:~/GSLW_TP3_CRYPTOSTATION$  ./install.sh
 ```
 
 
@@ -110,7 +112,7 @@ sudo chmod +x unistall.sh
 
 #Then run the script
 
-./unistall.sh 
+:~/GSLW_TP3_CRYPTOSTATION$ ./unistall.sh 
 ```
 
 

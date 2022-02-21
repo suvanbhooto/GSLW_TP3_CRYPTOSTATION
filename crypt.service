@@ -1,0 +1,11 @@
+[Unit]
+Description=Encryption 
+After=network.target
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=/etc/systemd/system/bash_scrypt/crypt.sh
+
+[Install]
+WantedBy=multi-user.target

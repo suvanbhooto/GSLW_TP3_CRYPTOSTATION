@@ -108,7 +108,7 @@ Open in terminal the cloned folder.
 ```bash
 #we need to give the script unistall.sh the right to execute
 
-sudo chmod +x unistall.sh  
+:~/GSLW_TP3_CRYPTOSTATION$ sudo chmod +x unistall.sh  
 
 #Then run the script
 

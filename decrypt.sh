@@ -16,7 +16,7 @@ do
 		do
 			if  [ -f $file ]
 			  then
-				sudo python3 /etc/systemd/system/decrypt.py $file $user_name
+				sudo python3 /bin/py_file/decrypt.py $file $user_name
 				sudo rm -r $file
 				sleep 2
 

@@ -1,5 +1,5 @@
 copy_path="/etc/systemd/system"
-
+bin_path="/bin"
 
 mkdir /home/$USER/crypto_station
 mkdir /home/$USER/crypto_station/toCrypt
@@ -7,24 +7,25 @@ mkdir /home/$USER/crypto_station/toDecrypt
 mkdir /home/$USER/crypto_station/Crypted
 mkdir /home/$USER/crypto_station/Decrypted 
 
-sudo mkdir $copy_path/.generated_key
+sudo mkdir $bin_path/py_file
+sudo mkdir $bin_path/py_file/.generated_key
 
-sudo cp python_file/generate.py $copy_path/
+sudo cp python_file/generate.py $bin_path/py_file
 
-sudo python3 $copy_path/generate.py $
-
-
+sudo python3 $bin_path/py_file/generate.py $
 
 
-sudo cp python_file/crypt.py $copy_path
-sudo cp python_file/decrypt.py $copy_path
 
-sudo mkdir $copy_path/bash_scrypt
-sudo cp crypt.sh $copy_path/bash_scrypt
-sudo cp decrypt.sh $copy_path/bash_scrypt
 
-sudo chmod +x crypt.sh
-sudo chmod +x decrypt.sh
+sudo cp python_file/crypt.py $bin_path/py_file
+sudo cp python_file/decrypt.py $bin_path/py_file
+
+sudo mkdir $bin_path/bash_scrypt
+sudo cp crypt.sh $bin_path/bash_scrypt
+sudo cp decrypt.sh $bin_path/bash_scrypt
+
+sudo chmod +x $bin_path/bash_scrypt/crypt.sh
+sudo chmod +x $bin_path/bash_scrypt/decrypt.sh
 
 
 

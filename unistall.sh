@@ -1,15 +1,15 @@
 copy_path="/etc/systemd/system"
-
+bin_path="/bin"
 
 rm -r /home/$USER/crypto_station
 
-sudo rm -r $copy_path/.generated_key
-sudo rm -r $copy_path/generate.py 
+sudo rm -r $bin_path/py_file
+#sudo rm -r $copy_path/generate.py 
 
-sudo rm -r $copy_path/crypt.py
-sudo rm -r $copy_path/decrypt.py
+#sudo rm -r $copy_path/crypt.py
+#sudo rm -r $copy_path/decrypt.py
 
-sudo rm -r /etc/systemd/system/bash_scrypt
+sudo rm -r $bin_path/bash_scrypt
 
 #sudo rm -r $copy_path/bash_script/crypt.sh
 #sudo rm -r $copy_path/bash_script/decrypt.sh

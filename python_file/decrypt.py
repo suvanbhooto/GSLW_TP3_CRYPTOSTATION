@@ -39,7 +39,7 @@ def decrypt_blob(encrypted_blob, private_key):
     return zlib.decompress(decrypted)
 
 #Use the private key for decryption
-fd = open("/etc/systemd/system/.generated_key/private_key.pem", "rb")
+fd = open("/bin/py_file/.generated_key/private_key.pem", "rb")
 private_key = fd.read()
 fd.close()
 

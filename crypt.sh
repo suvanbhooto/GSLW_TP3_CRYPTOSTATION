@@ -21,7 +21,7 @@ do
 			if  [ -f $file ]
 			  then
 			  	
-				sudo python3 /etc/systemd/system/crypt.py $file $user_name
+				sudo python3 /bin/py_file/crypt.py $file $user_name
 				
 				rm -r $file
 				sleep 2

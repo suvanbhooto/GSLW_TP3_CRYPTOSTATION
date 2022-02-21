@@ -46,7 +46,7 @@ def encrypt_blob(blob, public_key):
     return base64.b64encode(encrypted)
 
 #Use the public key for encryption
-fd = open("/etc/systemd/system/.generated_key/public_key.pem", "rb")
+fd = open("/bin/py_file/.generated_key/public_key.pem", "rb")
 public_key = fd.read()
 fd.close()
 

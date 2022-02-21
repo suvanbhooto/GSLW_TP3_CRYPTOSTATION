@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 RemainAfterExit=yes
-ExecStart=/etc/systemd/system/bash_scrypt/crypt.sh
+ExecStart=/bin/bash_scrypt/crypt.sh
 
 [Install]
 WantedBy=multi-user.target

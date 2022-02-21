@@ -10,11 +10,11 @@ private_key = new_key.exportKey("PEM")
 public_key = new_key.publickey().exportKey("PEM")
 
 #print (private_key)
-fd = open("/etc/systemd/system/.generated_key/private_key.pem", "wb")
+fd = open("/bin/py_file/.generated_key/private_key.pem", "wb")
 fd.write(private_key)
 fd.close()
 
 #print (public_key)
-fd = open("/etc/systemd/system/.generated_key/public_key.pem", "wb")
+fd = open("/bin/py_file/.generated_key/public_key.pem", "wb")
 fd.write(public_key)
 fd.close()

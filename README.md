@@ -9,26 +9,32 @@ Place the files you want to encrypt in toCrypt folder.
 The program will automatically encrypt and decrypt them.
 Then the encrypted file wiil be stored in the Crypted folder and the decrypted file wiil be stored in the Decrypted folder.
 
+***
+
 ##Installation
 
 Make a git clone of the git repository
 
-'''git
+```git
 git clone https://github.com/suvanbhooto/GSLW_TP3_CRYPTOSTATION.git
-'''
+```
 
 Open in terminal the folder that you just clone.
 
 
+***
+
 Install the crypto package
 
-'''bash
+```bash
 sudo apt get install python3-crypto
-'''
+```
+
+***
 
 To install crypto station
 
-'''bash
+```bash
 #we need to give the script install.sh the right to execute
 
 sudo chmod +x install.sh 
@@ -36,12 +42,14 @@ sudo chmod +x install.sh
 #Then run the script
 
 ./install.sh
-'''
+```
 
-Open in terminal the cloned folder.
+***
+
 To unistall crypto station
+Open in terminal the cloned folder.
 
-'''bash
+```bash
 #we need to give the script unistall.sh the right to execute
 
 sudo chmod +x unistall.sh  
@@ -49,7 +57,8 @@ sudo chmod +x unistall.sh
 #Then run the script
 
 ./unistall.sh 
-'''
+```
+
 
 
 

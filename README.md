@@ -19,11 +19,9 @@ Make a git clone of the git repository
 git clone https://github.com/suvanbhooto/GSLW_TP3_CRYPTOSTATION.git
 ```
 
-Open in terminal the folder that you just clone.
-
-
 ***
 
+Open in terminal the folder that you just clone.
 Install the crypto package
 
 ```bash
